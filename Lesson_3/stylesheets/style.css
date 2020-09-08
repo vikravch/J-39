@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+a {
+    text-decoration: none;
+}
+.thumbnail-item {
+    border: solid 3px white;
+    /*border-style: solid;
+    border-width: 3px;
+    border-color: white;*/
+}
+.thumbnail-list {
+    height: 80vh;
+    overflow-y: auto;
+}

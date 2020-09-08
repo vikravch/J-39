@@ -1,0 +1,13 @@
+body {
+    background: green;
+}
+p {
+    color: orange;
+    text-align: center;
+}
+/*  Rules importance:
+    1. Browser default
+    2. styles in head tag
+    3. inline style
+    4. !important
+*/
