@@ -1,0 +1,167 @@
+@font-face {
+    font-family: airstream;
+    src: url("fonts/Airstream-webfont.svg") format("svg");
+    src: url("fonts/Airstream-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: lakeshor;
+    src: url("fonts/LAKESHOR-webfont.svg") format("svg");
+    src: url("fonts/LAKESHOR-webfont.woff") format("woff");
+}
+body
+{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+}
+
+ul
+{
+
+}
+
+.thumbnail-list
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+.thumbnail-item
+{
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.thumbnail-title
+{
+    text-align: center;
+    display: block;
+    font-family: lakeshor;
+    font-size: 2vw;
+}
+
+.thumbnail-image
+{
+    display: block;
+    width: 15vw;
+    height: 10vw;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.logo
+{
+    text-align: center;
+    background-color: chocolate;
+    text-transform: uppercase;
+    font-size: 4vw;
+    color: lavender;
+    font-family: airstream;
+}
+
+.main-header
+{
+
+}
+
+.main-content
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.detailed-container
+{
+    justify-content: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.detailed-image
+{
+    display: block;
+    width: 80%;
+}
+
+.detailed-title
+{
+    display: block;
+    font-family: lakeshor;
+    font-size: 5vw;
+    color: black;
+    position: absolute;
+    left: 15vw;
+    bottom: 1vw;
+}
+
+.detailed-frame
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex-grow: 1;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+.thumbnail-item:hover
+{
+    transform: scale(1.5);
+}
+
+.hidden.detailed-container
+{
+    display: none;
+}
+
+.hide-button
+{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+@media all and (min-width: 500px)
+{
+    .main-content
+    {
+        flex-direction: row;
+
+    }
+
+    .thumbnail-list
+    {
+        flex-direction: column;
+        height: 90vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        order: -1;
+        min-width: 15vw;
+    }
+
+    .thumbnail-item
+    {
+        min-width: 10vw;
+    }
+
+    .detailed-image
+    {
+        width: 80%;
+    }
+}
