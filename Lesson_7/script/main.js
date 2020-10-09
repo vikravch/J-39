@@ -3,21 +3,28 @@ console.log(typeof console)
 console.log(typeof document)
 //document.write('<a href="https://google.com">Hello I try to write to Document</a>')
 
-var detailedImage = document.querySelector('.detailed-image');
-var detailedTitle = document.querySelector('.detailed-title');
-var detailedContainer = document.querySelector('.detailed-container')
+const detailedImage = document.querySelector('.detailed-image')
+const detailedTitle = document.querySelector('.detailed-title')
+const detailedContainer = document.querySelector('.detailed-container')
 
 console.log(typeof detailedContainer)
+//alert(typeof detailedContainer)
+
 function hideDetails(){
     console.log("Ok, I will hide details")
     detailedContainer.classList.add('hidden')
 }
 function showDetails(){
     detailedContainer.classList.remove('hidden')
+    detailedContainer.classList.add('isDot')
+    setTimeout(function (){
+        detailedContainer.classList.remove('isDot')
+        console.log("After timeout")
+    }, 1000)
 }
 
 function getThumbnails(){
-    var listItems = document.querySelectorAll('a')
+    const listItems = document.querySelectorAll('a')
     console.log(`items a count - ${listItems.length}`)
     return listItems
 }

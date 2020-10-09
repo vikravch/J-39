@@ -87,6 +87,7 @@ a
     flex-grow: 1;
     display: flex;
     align-items: center;
+    transition: 1s ease-in-out;
 }
 
 .detailed-image
@@ -137,6 +138,11 @@ html, body
     left: 300px;
 }
 
+.isDot{
+    transform: scale(0.0);
+    transition: 0ms;
+}
+
 @media all and (min-width: 500px)
 {
     .main-content
@@ -164,4 +170,5 @@ html, body
     {
         width: 80%;
     }
+
 }

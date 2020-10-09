@@ -8,13 +8,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Lesson_2" />
-    <orderEntry type="module" module-name="Lesson_3" />
-    <orderEntry type="module" module-name="Lesson_4" />
-    <orderEntry type="module" module-name="Lesson_5" />
-    <orderEntry type="module" module-name="Lesson_7" />
-    <orderEntry type="module" module-name="Lesson_8" />
-    <orderEntry type="module" module-name="Lesson_9" />
-    <orderEntry type="module" module-name="Lesson_10" />
   </component>
 </module>

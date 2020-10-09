@@ -1,3 +1,14 @@
+@font-face {
+    font-family: lakeshore;
+    src: url("../fonts/LAKESHOR-webfont.svg") format("svg");
+    src: url("../fonts/LAKESHOR-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: airstream;
+    src: url("../fonts/Airstream-webfont.svg") format("svg");
+    src: url("../fonts/Airstream-webfont.woff") format("woff");
+}
+/* Emmet */
 body{
     background-color: bisque;
 }
@@ -13,4 +24,26 @@ a {
 .thumbnail-list {
     height: 80vh;
     overflow-y: auto;
+    list-style: none;
+}
+.thumbnail-image{
+    width: 100%;
+}
+.thumbnail-title{
+    display: block;
+    text-align: center;
+    background-color: deeppink;
+    color: white;
+    font-size: 1.8rem;
+    font-family: airstream;
+}
+.logo-text{
+    text-align: center;
+    font-family: lakeshore;
+    background-color: aqua;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.thumbnail-item+.thumbnail-item {
+    margin-top: 40px;
 }

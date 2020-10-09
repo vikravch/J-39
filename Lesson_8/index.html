@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    	.button{
+    		width:100px;
+    		height:40px;
+    		background-color:grey;
+    	}
+    	
+    	ol li{
+    		display:block;
+    		width:100px;
+    		height:40px;
+    	}
+    	
+    	ol li:hover{
+    		background-color:#ddd;
+    	}
+    </style>
+    
+    <script>
+	console.log("Log from JS");
+		
+	function clickOnButton(){	
+		//console.log("Hello :)");
+		//alert("Ciao!");
+		const bodyElement = document.querySelector('body')
+		console.log(typeof bodyElement)
+		bodyElement.style.backgroundColor = 'green'
+	}
+	
+	function clickOnSecondBtn(){
+		console.log("Second hello")
+	}
+	//clickOnButton();
+    </script> 
+    
+</head>
+<body>
+	 
+	   
+	<button onclick="clickOnButton()"> Click on me </button>
+	<div onclick="clickOnSecondBtn()" id="clickableBlock" class="button"></div>
+	
+	<ol id="itemsList">
+		<li number="1">Item1</li>
+		<li number="2">Item2</li>
+		<li number="3">Item3</li>
+		<li number="4">Item4</li>
+		<li number="5">Item5</li>
+		<li number="6">Item6</li>
+	</ol>
+	<span id="currentNumber"></span><br>
+	<span id="sumNumbers"></span>
+
+	<script>
+		const divForClick = document.querySelector("#clickableBlock");
+		divForClick.addEventListener( 'click', clickSecond )
+		function clickSecond(){
+			alert("Hello ")	
+		}
+		
+		const listOfLi = document.querySelectorAll('#itemsList li');
+		console.log(listOfLi.length);
+		
+		const itemFunction = function(item){
+			item.addEventListener('click',
+				function(){
+					console.log(item.getAttribute('number'));
+					const currentSpan = document.querySelector("#currentNumber");
+					currentSpan.innerHTML =
+							"<b> clicked on "+item.getAttribute('number')+"</b>";
+
+
+					let itemValue = +item.getAttribute('number');
+					//console.log(typeof itemValue);
+					let newValue = itemValue;
+					console.log(newValue)
+					const sumSpan = document.querySelector("#sumNumbers")
+					let sumValue = +sumSpan.textContent
+					console.log(sumValue)
+					//console.log(typeof sumValue)
+					let res = newValue + sumValue
+					sumSpan.textContent = res
+				}
+			);
+		}
+		console.log(typeof listOfLi);
+		console.log(typeof itemFunction);
+		listOfLi.forEach(itemFunction);
+		
+	</script>
+</body>
+</html>
+
+
+
+
+<!-- добавить в разметку <span>
+1) при нажатии на пункт с списка itemsList записать
+	в текст блока span значение аттрибут number
+2) при нажатии на пункт с списка itemsList суммировать значение
+	с блока span с значением number -->
+
+
+
+
+
+
+
