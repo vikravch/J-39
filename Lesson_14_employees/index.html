@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Data</h1>
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="two_inputs">
+                        <div class="form-group">
+                            <label for="employeeId">Employee Identifier</label>
+                            <input class="form-control" required id="employeeId" name="id" type="number">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input class="form-control" id="email" type="email" name="emailAddress">
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" value="female" name="gender" required>
+                        <label class="form-check-label">Femail</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" value="male">
+                        <label class="form-check-label">Male</label>
+                    </div>
+                    <br>
+                    <div class="three_inputs">
+                        <div class="form-group">
+                            <label for="name">Employee's Name</label>
+                            <input class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="salary">Salary</label>
+                            <input class="form-control" id="salary" name="salary" type="number" required>
+                        </div>
+                        <div class="form-group">
+                            <label >Title</label>
+                            <select class="form-control"  name="title" required>
+                                <option value="" disabled selected>Select Title</option>
+                                <option value="wageEmployee">Wage Employee</option>
+                                <option value="manager">Manager</option>
+                                <option value="salesPerson">Sales Person</option>
+                                <option value="salesManager">SalesManager</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                    <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/company.js"></script>
+    <script src="scripts/employees.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

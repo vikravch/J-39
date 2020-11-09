@@ -1,0 +1,10 @@
+.nav-item.active
+{
+    background-color: blue;
+    color: white;
+}
+
+.nav-link
+{
+    cursor: pointer;
+}

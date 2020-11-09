@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="btnFirst">First</button>
+    <button id="btnSecond">Second</button>
+
+    <form id="firstText" class="hidden">
+        <input type="text" name="text_input">
+        <input type="submit" value="Click first">
+    </form>
+
+    <form id="secondText" class="hidden">
+        <input type="text" name="text_input">
+        <input type="submit" value="Click second">
+    </form>
+
+
+    <form id="secondForm">
+        <input type="radio" name="language" value="EN">
+        <label>English</label>
+        <input type="radio" name="language" value="HE">
+        <label>Hebrew</label>
+        <input type="radio" name="language" value="RU">
+        <label>Russian</label>
+        <input type="submit" value="Done">
+    </form>
+
+    <form id="thirdForm" style="display: none">
+        <input type="checkbox" name="first" value="first_value">
+        <label>English</label>
+        <input type="checkbox" name="second" value="second_value">
+        <label>Hebrew</label>
+        <input type="checkbox" name="third" value="third_value">
+        <label>Russian</label>
+        <input type="submit" value="Done">
+    </form>
+
+    <script src="form-handler.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

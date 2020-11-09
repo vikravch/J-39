@@ -16,5 +16,24 @@
     <orderEntry type="module" module-name="Lesson_8" />
     <orderEntry type="module" module-name="Lesson_9" />
     <orderEntry type="module" module-name="Lesson_10" />
+    <orderEntry type="module" module-name="Lesson_11" />
+    <orderEntry type="module" module-name="Lesson_12" />
+    <orderEntry type="module" module-name="Lesson_13" />
+    <orderEntry type="module" module-name="Lesson_13_webinar" />
+    <orderEntry type="module" module-name="Lesson_14_coffee" />
+    <orderEntry type="module" module-name="Lesson_14_webinar" />
+    <orderEntry type="module" module-name="Lesson_14_employees" />
+    <orderEntry type="module" module-name="Lesson_15_navigator" />
+    <orderEntry type="module" module-name="Lesson_15_webinar" />
+    <orderEntry type="module" module-name="Lesson_15_nav_example" />
+    <orderEntry type="module" module-name="Lesson_17_cofee" />
+    <orderEntry type="module" module-name="Lesson_17_async" />
+    <orderEntry type="module" module-name="Lesson_16_coffee" />
+    <orderEntry type="module" module-name="Lesson_16_homework" />
+    <orderEntry type="module" module-name="Lesson_17_homework" />
+    <orderEntry type="module" module-name="Lesson_17_webinar" />
+    <orderEntry type="module" module-name="Lesson_19_coffee" />
+    <orderEntry type="module" module-name="Lesson_19_promise" />
+    <orderEntry type="module" module-name="Lesson_19_Webinar" />
   </component>
 </module>

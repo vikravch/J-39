@@ -1,0 +1,89 @@
+/*body*/
+/*{*/
+/*    display: table;*/
+/*    width: 100%;*/
+/*    table-layout: fixed;*/
+/*}*/
+
+.two_inputs,.three_inputs
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.two_inputs .form-control
+{
+    width: 25vw;
+}
+
+.three_inputs .form-control
+{
+    width: 18vw;
+}
+
+.two_inputs label, .three_inputs label
+{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container.hidden
+{
+    display:none;
+}
+
+.buttons.hidden
+{
+    display:none
+}
+
+/*#employees*/
+/*{*/
+/*    height: 80vh;*/
+/*    overflow-y: auto;*/
+/*}*/
+
+.nav-item.active
+{
+    background-color: blue;
+    color: white;
+}
+
+.nav-link, .clickable
+{
+    cursor: pointer;
+}
+
+button
+{
+    margin-left: 20px;
+}
+
+.total
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tableBodyScroll thead, tbody tr
+{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tableBodyScroll tbody
+{
+    display: block;
+    max-height: 70vh;
+    overflow-y: scroll;
+}

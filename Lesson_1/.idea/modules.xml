@@ -4,6 +4,25 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Lesson_1.iml" filepath="$PROJECT_DIR$/.idea/Lesson_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lesson_10/.idea/Lesson_10.iml" filepath="$PROJECT_DIR$/../Lesson_10/.idea/Lesson_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_11/.idea/Lesson_11.iml" filepath="$PROJECT_DIR$/../Lesson_11/.idea/Lesson_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_12/.idea/Lesson_12.iml" filepath="$PROJECT_DIR$/../Lesson_12/.idea/Lesson_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_13/.idea/Lesson_13.iml" filepath="$PROJECT_DIR$/../Lesson_13/.idea/Lesson_13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_13_webinar/.idea/Lesson_13_webinar.iml" filepath="$PROJECT_DIR$/../Lesson_13_webinar/.idea/Lesson_13_webinar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_14_coffee/.idea/Lesson_14_coffee.iml" filepath="$PROJECT_DIR$/../Lesson_14_coffee/.idea/Lesson_14_coffee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_14_employees/.idea/Lesson_14_employees.iml" filepath="$PROJECT_DIR$/../Lesson_14_employees/.idea/Lesson_14_employees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_14_webinar/.idea/Lesson_14_webinar.iml" filepath="$PROJECT_DIR$/../Lesson_14_webinar/.idea/Lesson_14_webinar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_15_nav_example/.idea/Lesson_15_nav_example.iml" filepath="$PROJECT_DIR$/../Lesson_15_nav_example/.idea/Lesson_15_nav_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_15_navigator/.idea/Lesson_15_navigator.iml" filepath="$PROJECT_DIR$/../Lesson_15_navigator/.idea/Lesson_15_navigator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_15_webinar/.idea/Lesson_15_webinar.iml" filepath="$PROJECT_DIR$/../Lesson_15_webinar/.idea/Lesson_15_webinar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_16_coffee/.idea/Lesson_16_coffee.iml" filepath="$PROJECT_DIR$/../Lesson_16_coffee/.idea/Lesson_16_coffee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_16_homework/.idea/Lesson_16_homework.iml" filepath="$PROJECT_DIR$/../Lesson_16_homework/.idea/Lesson_16_homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_17_async/.idea/Lesson_17_async.iml" filepath="$PROJECT_DIR$/../Lesson_17_async/.idea/Lesson_17_async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_17_cofee/.idea/Lesson_17_cofee.iml" filepath="$PROJECT_DIR$/../Lesson_17_cofee/.idea/Lesson_17_cofee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_17_homework/.idea/Lesson_17_homework.iml" filepath="$PROJECT_DIR$/../Lesson_17_homework/.idea/Lesson_17_homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_17_webinar/.idea/Lesson_17_webinar.iml" filepath="$PROJECT_DIR$/../Lesson_17_webinar/.idea/Lesson_17_webinar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_19_Webinar/.idea/Lesson_19_Webinar.iml" filepath="$PROJECT_DIR$/../Lesson_19_Webinar/.idea/Lesson_19_Webinar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_19_coffee/.idea/Lesson_19_coffee.iml" filepath="$PROJECT_DIR$/../Lesson_19_coffee/.idea/Lesson_19_coffee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lesson_19_promise/.idea/Lesson_19_promise.iml" filepath="$PROJECT_DIR$/../Lesson_19_promise/.idea/Lesson_19_promise.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lesson_2/.idea/Lesson_2.iml" filepath="$PROJECT_DIR$/../Lesson_2/.idea/Lesson_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lesson_3/.idea/Lesson_3.iml" filepath="$PROJECT_DIR$/../Lesson_3/.idea/Lesson_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lesson_4/.idea/Lesson_4.iml" filepath="$PROJECT_DIR$/../Lesson_4/.idea/Lesson_4.iml" />
