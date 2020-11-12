@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JQuery_examples/.idea/JQuery_examples.iml" filepath="$PROJECT_DIR$/../JQuery_examples/.idea/JQuery_examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Lesson_1.iml" filepath="$PROJECT_DIR$/.idea/Lesson_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lesson_10/.idea/Lesson_10.iml" filepath="$PROJECT_DIR$/../Lesson_10/.idea/Lesson_10.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lesson_11/.idea/Lesson_11.iml" filepath="$PROJECT_DIR$/../Lesson_11/.idea/Lesson_11.iml" />

@@ -2,30 +2,31 @@
     function ()
     {
         let App = window.App || {}
-
+                     //  1000
         function Orders(timeout)
         {
             this.data = {}
             this.timeout = timeout
             this.rejectFlag = false
         }
-
+                    //   true|false
         function getPromise(value)
         {
-            return new Promise(function (resolve, reject)
+            let promiseRes = new Promise(function (resolve, reject)
             {
                 setTimeout(function ()
                 {
-                    if(this.rejectFlag)
-                    {
+                    if(this.rejectFlag) {
                         reject({responseText: "server is unavailable"})
-                    }
-                    else
-                    {
+                    } else {
                         resolve(value)
-                    }
+                    }        // 1000
                 }.bind(this), this.timeout)
             }.bind(this))
+
+            console.log("promiseRes - "+ typeof promiseRes)
+
+            return promiseRes
         }
 
         Orders.prototype.add = function (order)
@@ -34,6 +35,7 @@
                 throw new Error('must be email in order')
 
             if(this.data[order.email] || this.rejectFlag)
+                // getPromise(false)
                 return getPromise.call(this, false)
 
             this.data[order.email] = order

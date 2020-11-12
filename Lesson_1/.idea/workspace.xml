@@ -25,7 +25,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson_19_Webinar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JQuery_examples" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -37,15 +37,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Lesson_12" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../JQuery_examples" />
       <recent name="$PROJECT_DIR$/../Lesson_19_Webinar" />
       <recent name="$PROJECT_DIR$/../Lesson_19_promise" />
       <recent name="$PROJECT_DIR$/../Lesson_19_coffee" />
       <recent name="$PROJECT_DIR$/../Lesson_17_webinar" />
-      <recent name="$PROJECT_DIR$/.." />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../Lesson_12" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,6 +77,7 @@
       <workItem from="1604236424500" duration="13989000" />
       <workItem from="1604512140236" duration="7594000" />
       <workItem from="1604852023495" duration="12362000" />
+      <workItem from="1605117134354" duration="7809000" />
     </task>
     <servers />
   </component>
